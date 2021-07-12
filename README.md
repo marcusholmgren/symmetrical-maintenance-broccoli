@@ -10,6 +10,8 @@ All machine learning training will be done on [AWS SageMaker](https://aws.amazon
 
 The final analysis and insights will be documented in a report.
 
+* [Linear learner baseline](linear-learner-baseline.ipynb) - Notebook trained with AWS SageMaker [Linear Learner Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html)
+
 ## Tech Stack
 
 Python, NumPy, Pandas, Matplotlib, Seaborn, Jupyter, PyTorch, AWS SageMaker
