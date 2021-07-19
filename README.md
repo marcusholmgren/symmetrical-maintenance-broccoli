@@ -10,8 +10,22 @@ All machine learning training will be done on [AWS SageMaker](https://aws.amazon
 
 The final analysis and insights will be documented in a report.
 
-* [Linear learner baseline](linear-learner-baseline.ipynb) - Notebook trained with AWS SageMaker [Linear Learner Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html)
+1. [Exploratory Data Analysis](exploratory-data-analysis.ipynb) - Notebook that explore data set and draws plots and some simple summary statistics.
+2. [Feature Engineering](feature_engineering.ipynb) - Notebook that selects features, upsamples using SMOTE and adjust ranges with a Min/Max scalar.
+3. [Linear learner baseline](linear-learner-baseline.ipynb) - Notebook trained with AWS SageMaker [Linear Learner Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html)
 
 ## Tech Stack
 
-Python, NumPy, Pandas, Matplotlib, Seaborn, Jupyter, PyTorch, AWS SageMaker
+Python, NumPy, Pandas, Matplotlib, Seaborn, Jupyter, PyTorch, AWS SageMaker, Imbalanced
+
+
+## Imbalanced dataset
+
+The data set is highly imbalanced where the feature Machine failure consists of 9661 (0.9661) false values and 339 (0.0339) failures according to the five failure modes. 
+
+I choose to use the [Imbalanced-learn](https://imbalanced-learn.org/stable/) library that provides tools for dealing with imbalanced classes.
+
+
+## References
+
+* [The 5 Most Useful Techniques to Handle Imbalanced Datasets](https://www.kdnuggets.com/2020/01/5-most-useful-techniques-handle-imbalanced-datasets.html)
