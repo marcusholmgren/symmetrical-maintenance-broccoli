@@ -13,6 +13,12 @@ The final analysis and insights will be documented in a report.
 1. [Exploratory Data Analysis](exploratory-data-analysis.ipynb) - Notebook that explore data set and draws plots and some simple summary statistics.
 2. [Feature Engineering](feature_engineering.ipynb) - Notebook that selects features, upsamples using SMOTE and adjust ranges with a Min/Max scalar.
 3. [Linear learner baseline](linear-learner-baseline.ipynb) - Notebook trained with AWS SageMaker [Linear Learner Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/linear-learner.html)
+4. [PyTorch Training Model](pytorch-training-model.ipynb) - Notebook that trains and evaluates simple neural network model.   
+    1. [pytorch_model_def.py](pytorch_script/pytorch_model_def.py) - The neural network model.
+    2. [train_deploy_pytorch_without_dependencies.py](pytorch_script/train_deploy_pytorch_without_dependencies.py) - SageMaker scripts for training model and inference
+
+
+[Machine Learning Capstone Proposal](docs/Marcus Holmgren - Machine Learning Capstone Proposal.pdf)
 
 ## Tech Stack
 
