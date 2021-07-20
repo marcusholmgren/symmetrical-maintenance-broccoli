@@ -19,8 +19,8 @@ The final analysis and insights will be documented in a report.
 
 
 PDF documents describing the machine learning experiment:
-* [Machine Learning Capstone Proposal](docs/"Marcus%20Holmgren%20-%20Machine%20Learning%20Capstone%20Proposal.pdf")
-* [Machine Learning Capstone Project](docs/"Marcus%20Holmgren%20-%20Machine%20Learning%20Capstone%20Project.pdf")
+* [Machine Learning Capstone Proposal](https://github.com/marcusholmgren/symmetrical-maintenance-broccoli/blob/main/docs/Marcus%20Holmgren%20-%20Machine%20Learning%20Capstone%20Proposal.pdf)
+* [Machine Learning Capstone Project](https://github.com/marcusholmgren/symmetrical-maintenance-broccoli/blob/main/docs/Marcus%20Holmgren%20-%20Machine%20Learning%20Capstone%20Project.pdf)
 
 ## Tech Stack
 
