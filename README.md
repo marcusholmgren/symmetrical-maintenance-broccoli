@@ -18,7 +18,9 @@ The final analysis and insights will be documented in a report.
     2. [train_deploy_pytorch_without_dependencies.py](pytorch_script/train_deploy_pytorch_without_dependencies.py) - SageMaker scripts for training model and inference
 
 
-[Machine Learning Capstone Proposal](docs/Marcus Holmgren - Machine Learning Capstone Proposal.pdf)
+PDF documents describing the machine learning experiment:
+* [Machine Learning Capstone Proposal](docs/Marcus Holmgren - Machine Learning Capstone Proposal.pdf)
+* [Machine Learning Capstone Project](docs/Marcus Holmgren - Machine Learning Capstone Project.pdf)
 
 ## Tech Stack
 
