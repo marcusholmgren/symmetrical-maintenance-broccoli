@@ -126,7 +126,6 @@ def train():
             y = model(x_train_batch.float())
             loss = criterion(y.flatten(), y_train_batch.float())
             optimizer.zero_grad()
-            optimizer.zero_grad()
             loss.backward()
             optimizer.step()
         epoch += 1

@@ -5,9 +5,9 @@ import torch.nn as nn
 class NeuralNet(nn.Module):
     def __init__(self):
         super().__init__()
-        self.fc1 = nn.Linear(9, 9)
-        self.fc2 = nn.Linear(18, 6)
-        self.fc3 = nn.Linear(6, 1)
+        self.fc1 = nn.Linear(8, 16)
+        self.fc2 = nn.Linear(16, 4)
+        self.fc3 = nn.Linear(4, 1)
 
     def forward(self, x):
         x = torch.tanh(self.fc1(x))
